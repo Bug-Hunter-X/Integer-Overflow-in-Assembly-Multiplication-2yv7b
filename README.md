@@ -1,0 +1,3 @@
+# Integer Overflow Bug in Assembly
+
+This repository demonstrates a common error in assembly programming: integer overflow during multiplication. The `bug.asm` file contains code that performs multiplication without checking for potential overflow.  The `bugSolution.asm` file provides a corrected version that addresses this issue.  The problem arises from the implicit assumption that the multiplication result will always fit within the 32-bit `eax` register.
